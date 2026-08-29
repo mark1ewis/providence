@@ -1,0 +1,3 @@
+[submodule "pawtucket2"]
+	path = pawtucket
+	url = https://github.com/mark1ewis/pawtucket2.git
