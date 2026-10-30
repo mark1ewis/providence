@@ -163,7 +163,7 @@ var caUI = caUI || {};
 		}
 
 		that.addNextValuesLink = function() {
-			if(that.loadFrom >= (that.totalValueCount - 1)) { return; }
+			if(that.loadFrom >= that.totalValueCount) { return; }
 			var end = (that.loadFrom + that.loadSize);
 			if (end > that.totalValueCount) { end = that.totalValueCount % that.loadSize; } else { end = that.loadSize; }
 			
